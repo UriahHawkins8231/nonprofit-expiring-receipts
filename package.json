@@ -1,0 +1,10 @@
+{
+  "name": "nonprofit-expiring-receipts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/receipt-download.ts",
+    "test": "node --experimental-strip-types test/receipt-download.test.ts"
+  }
+}
